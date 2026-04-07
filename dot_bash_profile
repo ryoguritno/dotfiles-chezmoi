@@ -1,0 +1,6 @@
+[[ -r "/home/linuxbrew/.linuxbrew/etc/profile.d/bash_completion.sh" ]] && . "/home/linuxbrew/.linuxbrew/etc/profile.d/bash_completion.sh"
+
+. "$HOME/.local/bin/env"
+. "$HOME/.cargo/env"
+
+. "$HOME/.atuin/bin/env"
