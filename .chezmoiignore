@@ -1,0 +1,36 @@
+# secrets - never track these
+.aws/credentials
+.kube
+.kube/config
+.gnupg
+**/*.pem
+.env
+.boto
+.obsutilconfig
+.azure
+.gsutil
+.hcloud
+
+# claude is managed by a separate repo
+.claude
+
+# history & runtime state
+.zsh_history
+.bash_history
+.zsh_sessions
+.atuin/history.db
+.atuin/atuin-receipt.json
+.cache
+.zcompdump*
+.lesshst
+.viminfo
+.wget-hsts
+.python_history
+
+# large/binary files
+core
+*.deb
+*.db
+
+# chezmoi config itself
+.config/chezmoi
