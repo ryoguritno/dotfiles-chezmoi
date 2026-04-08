@@ -34,3 +34,6 @@ core
 
 # chezmoi config itself
 .config/chezmoi
+
+# repo files (not dotfiles)
+README.md
