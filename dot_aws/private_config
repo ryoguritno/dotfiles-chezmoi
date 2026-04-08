@@ -1,0 +1,170 @@
+[profile gdp-identity]
+region = us-east-1
+output = json
+
+[profile gl-exploration]
+role_arn=arn:aws:iam::302546992452:role/GlExplorationOrganizationRole
+source_profile=gdp
+region=ap-southeast-3
+skip_region_validation=true
+
+[profile prada-exploration2]
+role_arn=arn:aws:iam::302546992452:role/GlExplorationOrganizationRole
+source_profile=gdp
+region=ap-southeast-3
+skip_region_validation=true
+
+[profile gl-project]
+role_arn=arn:aws:iam::879730965449:role/GlProjectOrganizationRole
+source_profile=gdp
+region=ap-southeast-3
+skip_region_validation=true
+
+[profile glair-project]
+role_arn=arn:aws:iam::708914600472:role/GlairProjectOrganizationRole
+source_profile=gdp
+region=ap-southeast-3
+skip_region_validation=true
+
+[profile glair-exploration]
+role_arn=arn:aws:iam::724641319237:role/GlairExplorationOrganizationRole
+source_profile=gdp
+region=ap-southeast-3
+skip_region_validation=true
+
+[profile gl-vision]
+role_arn=arn:aws:iam::170848542527:role/GlairVisionOrganizationRole
+source_profile=gdp
+region=ap-southeast-3
+skip_region_validation=true
+
+[profile gl-vision-exploration]
+role_arn=arn:aws:iam::119885420672:role/role-glair-vision-exploration-ro-switch-role
+source_profile=gdp
+region=ap-southeast-3
+skip_region_validation=true
+
+[profile gl-ava-prod]
+role_arn=arn:aws:iam::917246193737:role/GLAVAProductionOrganizationRole
+source_profile=gdp
+region=ap-southeast-3
+skip_region_validation=true
+
+[profile aws-prosa]
+role_arn=arn:aws:iam::654654411542:role/AWSProsaOrganizationRole
+source_profile=gdp
+region=ap-southeast-1
+skip_region_validation=true
+
+[profile padma-nonprod]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::171433609494:role/PadmaNonProdAdminRole
+skip_region_validation=true
+
+[profile padma-prod]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::677841334589:role/PadmaProdAdminRole
+skip_region_validation=true
+
+[profile aws-gl-prosa]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::179907032606:role/GlProsaOrganizationRole
+skip_region_validation=true
+
+[profile prosaid]
+source_profile=gdp
+region=ap-southeast-1
+role_arn=arn:aws:iam::844833081277:role/ProsaIDOrganizationRole
+#role_arn=arn:aws:iam::844833081277:role/AWSProsaIdPowerUserRole
+skip_region_validation=true
+
+[profile aws-prosa-console]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::032865064881:role/ProsaConsoleOrganizationRole
+skip_region_validation=true
+
+[profile bosa-project]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::686255967860:role/BosaProjectOrganizationRole
+skip_region_validation=true
+
+[profile bosa-exploration]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::977099004296:role/BosaExplorationOrganizationRole
+skip_region_validation=true
+
+[profile aws-management-external]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::273383703279:role/GlMgmtExternal
+skip_region_validation=true
+
+[profile gl-public]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::848033947821:role/GLPublicAdminRole
+skip_region_validation=true
+
+[profile aws-gdplabs-central]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::441365454899:role/AWSGdplabsCentralOrganizationRole
+skip_region_validation=true
+
+[profile kompit]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::326542047454:role/KompitOrganizationRole
+skip_region_validation=true
+
+[profile gl-datasaur]
+source_profile=gdp
+region=us-east-1
+role_arn=arn:aws:iam::215600395899:role/GLDatasaurOrganizationRole
+skip_region_validation=true
+
+[profile jumpstart]
+source_profile=gdp
+region=us-east-1
+role_arn=arn:aws:iam::538142305803:role/GDPRoleAdmin
+skip_region_validation=true
+
+[profile gl-bedrock]
+source_profile=gdp
+region=us-east-1
+role_arn=arn:aws:iam::769297577745:role/switchrole-cloud-team
+skip_region_validation=true
+
+[profile gl-playground]
+source_profile=gdp
+region=us-east-1
+role_arn=arn:aws:iam::287109785743:role/AWSGlInfraPlaygroundOrganizationRole
+skip_region_validation=true
+
+[profile gl-openclaw]
+source_profile=gdp
+region=ap-southeast-1
+role_arn=arn:aws:iam::967880486328:role/OpenclawAdminAccess
+skip_region_validation=true
+
+[profile glchat-saas]
+source_profile=gdp
+region=ap-southeast-3
+role_arn=arn:aws:iam::700555016755:role/AWSGlchatSaasOrganizationRole
+skip_region_validation=true
+
+[default]
+region = us-east-1
+[profile aws-datasaur-dorway]
+[profile gl-central-ec2-scheduler-notify]
+[profile gl-exploration-intern-azmy]
+region = us-east-1
+[profile gl-bedrock-speech-exploration]
+region = us-east-1
+output = json
