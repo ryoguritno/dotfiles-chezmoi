@@ -1,0 +1,3 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/agungtguritno/Office/office-gdplabs/gl-sre-llm-template/cloud-llm/terraform-kubernetes/aws/infra-glair-avatar-poc/kube-manifest'
